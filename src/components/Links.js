@@ -53,10 +53,10 @@ const Links = () => {
 
   return (
     <>
-      <div className="col-md-4 p-2">
+      <div className="w-100 p-2">
         <LinksForm {...{ addOrEditLink, currentId, links }} />
       </div>
-      <div className="col-md-8 p-2">
+      <div className="w-100 p-2">
         {links.map((link) => (
           <div className="card mb-1" key={link.id}>
             <div className="card-body">

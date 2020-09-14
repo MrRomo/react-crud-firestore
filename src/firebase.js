@@ -3,13 +3,14 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyA-7rQH4HA1DC0yUpHAhEY1sYKaatPJMNQ",
-  authDomain: "react-firebase-crud-2d065.firebaseapp.com",
-  databaseURL: "https://react-firebase-crud-2d065.firebaseio.com",
-  projectId: "react-firebase-crud-2d065",
-  storageBucket: "react-firebase-crud-2d065.appspot.com",
-  messagingSenderId: "366113496238",
-  appId: "1:366113496238:web:01c48c92a222813521613f",
+  apiKey: "AIzaSyDsFhctdXoQ71Vn9SpFZi1XV3SkdZ9LBCY",
+  authDomain: "fir-crud-1a2ed.firebaseapp.com",
+  databaseURL: "https://fir-crud-1a2ed.firebaseio.com",
+  projectId: "fir-crud-1a2ed",
+  storageBucket: "fir-crud-1a2ed.appspot.com",
+  messagingSenderId: "834609989386",
+  appId: "1:834609989386:web:43e97df70be76889a2dcf3",
+  measurementId: "G-6QHZD5GN6Y"
 };
 // Initialize Firebase
 const fb = firebase.initializeApp(firebaseConfig);
